@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(0.25turn, grey, lightblue);
+}
+
+header {
+  background-color: #333;
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+  position: fixed; top : 0; left: 0;
+  width: 100%;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url('outdoor.jpg');
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 10px ridge black;
+}
+
+.carros {
+  padding: 50px;
+}
+
+.carro {
+  display: inline-table;
+  margin: 20px;
+  width: 200px;
+}
+
+.carro img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border: 1px ridge black;
+}
+
+.depoimento {
+  margin: 20px;
+}
+
+.depoimento img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #333;
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+}
+
+#titulo {
+  text-shadow: 1px 5px 5px red;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+* {
+  scroll-behavior: smooth;
+}
+}
+
+details > summary {
+  padding: 2px 6px;
+  width: 200px;
+  background-color: #fff;
+  border: none;
+  box-shadow: 1px 1px 2px black;
+  cursor: pointer;
+}
+
+#carro-branco {
+  max-width: 100%;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+h1 {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(180deg, white, white);
+  font-size: 40px;
+  text-shadow: 1px 1px 2px black;
+  text-decoration: underline;
+  font-family: serif;
+}
+
+.ajuste-form {
+  height: 15vh;
+  max-width: 500px;
+  min-width: 300px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 0 auto; 
+}
+
+fieldset {
+  padding: 10px;
+  border: none;
+  display: block;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  font-family: tahoma;
+  text-align: center;
+}
+
+label {
+  font-size: 20px;
+  width: 80%;
+  text-align: center;
+}
+
+input {
+  border: none;
+  border-bottom: 4px solid black;
+  background: transparent;
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+input[type="submit"] {
+  background: whitesmoke;
+  font-size: 1.5em;
+  font-family: Verdana;
+  border: 5px solid black;
+}
+
+#loja {
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+  display: block;
+  border-top: 5px ridge gold;
+  border-bottom: 5px ridge gold;
+}
+
+h2, h3{
+  display: block;
+  font-family: serif;
+}
+
+.titulo-loja {
+  text-align: center;
+  margin-top: 140px;
+}
+
+#endereço {
+  font-size: 20px;
+  font-family: tahoma;
+  text-align: center;
+  text-decoration: underline;
+}
